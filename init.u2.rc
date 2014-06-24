@@ -420,8 +420,8 @@ on property:dev.bootcomplete=1
     chmod 0644 /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq
     chmod 0644 /sys/devices/system/cpu/cpu0/cpufreq/screen_off_max_freq
     chmod 0644 /sys/devices/system/cpu/cpu1/cpufreq/screen_off_max_freq
-    #write /sys/devices/system/cpu/cpufreq/interactive/timer_rate 20000
-    #write /sys/devices/system/cpu/cpufreq/interactive/min_sample_time 20000
+    write /sys/devices/system/cpu/cpufreq/interactive/timer_rate 20000
+    write /sys/devices/system/cpu/cpufreq/interactive/min_sample_time 20000
 
 
 service charger /charger
