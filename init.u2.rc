@@ -1,7 +1,7 @@
 import init.u2.usb.rc
 
 on early-init
-	# create mountpoints
+    # create mountpoints
     chmod 0701 /mnt/media_rw
     mkdir /storage 0050 system sdcard_r
     mkdir /persist 0500 system system
